@@ -1,0 +1,18 @@
+user:
+nome:string;
+email:string
+nascimento:date
+filmes Alugados: array //  string
+
+constructor()
+exibirinfos()
+
+admin:
+constructor()
+cadastraFilme
+
+
+catalogo()
+filmes disponiveis: array string
+
+consultaFilme()

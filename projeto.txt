@@ -1,0 +1,22 @@
+user:
+    nome:string  ----<-<-------------
+    email:string            |        |
+    nascimento:date         |        |
+    role:string             |        |
+    ativo:bool              ^        |
+~~~~~~~~~~~~~~~~~~~~~~      |        |
+    constructor()           ^        |
+    exibirinfos()           |        |
+                            |        ^
+//////////////////          |        |
+                            |        ^
+Admin: ------>--->-----------        |
+    constructor()                    |
+    criarCurso()                     |
+                                     |
+//////////////////                   |
+                                     |
+Docente:--------->->------------------
+    constructor()
+    aprovarEstudante()
+    
